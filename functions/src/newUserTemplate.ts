@@ -11,6 +11,10 @@ export const journal = {}
 export const stress_incidents = {}
 
 export const charts = {
+    "activity_pie": {
+        "day": [],
+        "week": []
+    },
     "overalls": {
         "sleep": {
             "percent_change": 0,
@@ -46,6 +50,10 @@ export const charts = {
             "light": [],
             "total": []
         }
+    },
+    "step_counts": {
+        "week": [],
+        "month": []
     },
     "stress_bar": {
         "day": [],
